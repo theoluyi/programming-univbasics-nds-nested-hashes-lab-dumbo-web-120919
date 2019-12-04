@@ -26,7 +26,11 @@ def literal_aoh
 end
 
 # expected: [
-# {:name=>"Don Gately", :occupation=>"Live-in Staff"}, {:name=>"Joelle van Dyne", :occupation=>"Radio ...{:name=>"Kate Gompert", :occupation=>"None"}, {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}]
+# {:name=>"Don Gately", :occupation=>"Live-in Staff"}, 
+# {:name=>"Joelle van Dyne", :occupation=>"Radio ...
+# {:name=>"Kate Gompert", :occupation=>"None"}, 
+# {:name=>"Bruce Green", :occupation=>"Fan of Mildred"}
+# ]
 
 def aoh_lookup(aoh, row, key)
 end
